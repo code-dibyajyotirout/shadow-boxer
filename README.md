@@ -2,12 +2,27 @@
 
 > **Browser-Native AI WebAssembly Boxing Physics Engine & Real-Time Biomechanics Tracker**
 
-![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-WASM-orange)
+[![npm version](https://img.shields.io/npm/v/shadow-boxer.svg)](https://www.npmjs.com/package/shadow-boxer)
+[![NPM Package Repo](https://img.shields.io/badge/GitHub-NPM_Package-blue?logo=github)](https://github.com/code-dibyajyotirout/shadow-boxer-npm-package)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](https://nextjs.org/)
+[![MediaPipe](https://img.shields.io/badge/MediaPipe-WASM-orange)](https://developers.google.com/mediapipe)
 
-**Shadow Boxer** is a high-performance, privacy-first computer vision fitness application that runs 100% inside the browser. By leveraging Google MediaPipe Pose via WebAssembly (WASM) and hardware-accelerated Canvas rendering, Shadow Boxer tracks 33 skeletal landmarks in real time to calculate striking speed, acceleration, power metrics, and combo accuracy at 60 FPS with zero server latency.
+**Shadow Boxer** is a high-performance, privacy-first computer vision fitness application and SDK running 100% inside the browser. By leveraging Google MediaPipe Pose via WebAssembly (WASM) and hardware-accelerated Canvas rendering, Shadow Boxer tracks 33 skeletal landmarks in real time to calculate striking speed, acceleration, power metrics, and combo accuracy at 60 FPS with zero server latency.
+
+---
+
+## NPM Package
+
+The core kinematics engine, signal processing filters, and UI components are also available as a standalone NPM package:
+
+```bash
+npm install shadow-boxer
+```
+
+- **NPM Registry**: [npmjs.com/package/shadow-boxer](https://www.npmjs.com/package/shadow-boxer)
+- **Package Repository**: [code-dibyajyotirout/shadow-boxer-npm-package](https://github.com/code-dibyajyotirout/shadow-boxer-npm-package)
 
 ---
 
@@ -52,7 +67,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/shadow-boxer.git
+   git clone https://github.com/code-dibyajyotirout/shadow-boxer.git
    cd shadow-boxer
    ```
 
