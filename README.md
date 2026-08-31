@@ -4,16 +4,17 @@
 
 [![npm version](https://img.shields.io/npm/v/@animatrous/shadow-boxer.svg)](https://www.npmjs.com/package/@animatrous/shadow-boxer)
 [![NPM Package Repo](https://img.shields.io/badge/GitHub-NPM_Package-blue?logo=github)](https://github.com/code-dibyajyotirout/shadow-boxer-npm-package)
+[![Full-Stack Repo](https://img.shields.io/badge/GitHub-FullStack_Platform-00f0ff?logo=github)](https://github.com/code-dibyajyotirout/shadow-boxer-fullstack)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](https://nextjs.org/)
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-WASM-orange)](https://developers.google.com/mediapipe)
 
-**Shadow Boxer** is a high-performance, privacy-first computer vision fitness application and SDK running 100% inside the browser. By leveraging Google MediaPipe Pose via WebAssembly (WASM) and hardware-accelerated Canvas rendering, Shadow Boxer tracks 33 skeletal landmarks in real time to calculate striking speed, acceleration, power metrics, and combo accuracy at 60 FPS with zero server latency.
+**Shadow Boxer** is a high-performance, privacy-first computer vision fitness application and SDK running 100% inside the browser. By leveraging Google MediaPipe Pose via WebAssembly (WASM), Canvas API, WebGL, and Three.js rendering, Shadow Boxer tracks 33 skeletal landmarks in real time to calculate striking speed, acceleration, power metrics, and combo accuracy at 60 FPS with zero server latency.
 
 ---
 
-## NPM Package
+## Standalone NPM Package
 
 The core kinematics engine, signal processing filters, and UI components are available as a standalone NPM package:
 
@@ -23,6 +24,7 @@ npm install @animatrous/shadow-boxer
 
 - **NPM Registry**: [npmjs.com/package/@animatrous/shadow-boxer](https://www.npmjs.com/package/@animatrous/shadow-boxer)
 - **Package Repository**: [code-dibyajyotirout/shadow-boxer-npm-package](https://github.com/code-dibyajyotirout/shadow-boxer-npm-package)
+- **Full-Stack Architecture Repository**: [code-dibyajyotirout/shadow-boxer-fullstack](https://github.com/code-dibyajyotirout/shadow-boxer-fullstack)
 
 ---
 
@@ -47,10 +49,11 @@ npm install @animatrous/shadow-boxer
 
 ## Tech Stack
 
-- **Framework**: [Next.js](https://nextjs.org/) (App Router, Static Export ready)
-- **Language**: [TypeScript](https://www.typescriptlang.org/) & Modern ES Modules
-- **Computer Vision**: [@mediapipe/tasks-vision](https://www.npmjs.com/package/@mediapipe/tasks-vision) (WASM Pose Landmarker)
+*Next.js, TypeScript, React, MediaPipe WASM, Canvas API, WebGL, Three.js, Zustand, tRPC, Prisma, PostgreSQL, Redis, Cloudflare Workers*
+
+- **Frontend & Visuals**: Next.js 16 (App Router), React 19, TypeScript, MediaPipe WASM, Canvas API, WebGL, Three.js, React Three Fiber, Zustand
 - **Audio Engine**: Web Audio API (Procedural Oscillator / Bandpass Synthesis)
+- **Data & API**: tRPC, Prisma ORM, PostgreSQL, Redis 7 (Sorted Sets & Pub/Sub), Cloudflare Workers
 - **Styling**: Cyberpunk HUD aesthetics using Vanilla CSS with CSS Variables & Glassmorphism
 
 ---
