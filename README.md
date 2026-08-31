@@ -2,7 +2,7 @@
 
 > **Browser-Native AI WebAssembly Boxing Physics Engine & Real-Time Biomechanics Tracker**
 
-[![npm version](https://img.shields.io/npm/v/shadow-boxer.svg)](https://www.npmjs.com/package/shadow-boxer)
+[![npm version](https://img.shields.io/npm/v/@animatrous/shadow-boxer.svg)](https://www.npmjs.com/package/@animatrous/shadow-boxer)
 [![NPM Package Repo](https://img.shields.io/badge/GitHub-NPM_Package-blue?logo=github)](https://github.com/code-dibyajyotirout/shadow-boxer-npm-package)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -15,13 +15,13 @@
 
 ## NPM Package
 
-The core kinematics engine, signal processing filters, and UI components are also available as a standalone NPM package:
+The core kinematics engine, signal processing filters, and UI components are available as a standalone NPM package:
 
 ```bash
-npm install shadow-boxer
+npm install @animatrous/shadow-boxer
 ```
 
-- **NPM Registry**: [npmjs.com/package/shadow-boxer](https://www.npmjs.com/package/shadow-boxer)
+- **NPM Registry**: [npmjs.com/package/@animatrous/shadow-boxer](https://www.npmjs.com/package/@animatrous/shadow-boxer)
 - **Package Repository**: [code-dibyajyotirout/shadow-boxer-npm-package](https://github.com/code-dibyajyotirout/shadow-boxer-npm-package)
 
 ---
