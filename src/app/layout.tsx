@@ -44,6 +44,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${orbitron.variable} ${outfit.variable}`}>
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-6920661391833487" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6920661391833487"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body>{children}</body>
     </html>
   );

@@ -368,6 +368,25 @@ export default function ShadowBoxerClient() {
           </section>
           
         </div>
+
+        <footer style={{
+          marginTop: "24px",
+          padding: "16px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: "14px",
+          fontSize: "0.75rem",
+          color: "#718096",
+          borderTop: "1px solid rgba(255, 255, 255, 0.06)",
+          flexWrap: "wrap",
+        }}>
+          <span>© 2026 Animatrous. All rights reserved.</span>
+          <span>•</span>
+          <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" style={{ color: "#00f2fe", textDecoration: "underline" }}>Privacy Policy</a>
+          <span>•</span>
+          <a href="/terms" target="_blank" rel="noopener noreferrer" style={{ color: "#00f2fe", textDecoration: "underline" }}>Terms of Service</a>
+        </footer>
       </main>
 
       {/* Execute Client-side Engine script dynamically as ES Module */}
