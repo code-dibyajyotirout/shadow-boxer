@@ -32,7 +32,7 @@ npm install @animatrous/shadow-boxer
 
 - **Real-Time Skeletal Pose Estimation**: Tracks 33 3D body landmarks at 60 FPS using MediaPipe WASM Vision Tasks.
 - **Kinematic & Biomechanical Analysis**:
-  - **Punch Velocity**: Live speed calculation in meters per second ($m/s$).
+  - **Camera-Invariant Punch Velocity**: Real-time speed calculation in meters per second ($m/s$) derived directly from MediaPipe hip-relative metric `worldLandmarks`, invariant to user camera distance.
   - **Acceleration Vectors**: Instantaneous acceleration curves in $m/s^2$.
   - **Power Index**: Kinetic force approximation derived from velocity and joint extension ratios.
 - **Strike Archetype Classifier**:
